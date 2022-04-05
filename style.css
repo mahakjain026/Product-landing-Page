@@ -1,0 +1,153 @@
+body{
+    font-size: 20px;
+    background-image: linear-gradient(115deg,rgba(228, 209, 185,0.7),rgba(228, 209, 185,0.6))
+     ,url("https://cdn.pixabay.com/photo/2016/11/29/12/54/cafe-1869656_960_720.jpg") ;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+    
+}
+
+.header-box{
+    display: flex;
+    flex-direction: row;
+}
+.header-company-name{
+    padding-left: 10px;
+    font-size: large;
+}
+#header{
+    background-color: #534340;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    display:flex; 
+    justify-content: space-between;
+    padding:20px;
+}
+.nav-link{
+    margin-right: 20px;
+    color: black;
+}
+@media(max-width: 800px){
+    .nav-link{ 
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
+
+#intro{
+    margin-top:120px;
+    text-align: center;
+}
+
+
+form{
+    text-align: center;
+    padding-top:20px;
+    font-size: large;
+}
+#submit{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+p{
+    
+    /* width: 40%; */
+    /* position: absolute;
+    right:40px;
+    top:600px; */
+    
+}
+.info{
+   background-color: #AD8B73;
+   margin-top: 50px;
+   margin-bottom: 100px;
+   border-radius: 0.5em;
+   padding:10px;
+}
+/* .coffee-img{
+    position: relative;
+    left:
+   
+} */
+#coffee{
+   font-size: large; 
+   display: grid;
+   place-items: center;
+   padding-top: 20px;
+   width: 50%;
+}
+
+#container{
+    display: grid;
+    place-items: center;
+}
+#drinks{
+    background-color: #BB9981;
+    
+    border-radius: 0.5em;
+    padding:10px;
+    text-align: center;
+    
+}
+#food{
+    background-color: #BB9981;
+    
+    border-radius: 0.5em;
+    padding:10px;
+    text-align: center;
+   
+}
+
+#place{
+    text-align:center;
+width:50%;
+}
+
+.place-description{
+    font-size: large;
+    background-color: #AD8B73;
+    border-radius: 0.5em;
+    padding:10px;
+   text-align: center;
+
+}
+.footer{
+    text-align: end;
+}
+
+
+/*  Menu Css */
+.menu-section{
+text-align:center;
+display: grid;
+    place-items: center;
+}
+#menu-description {
+    font-size: large;
+    background-color: #AD8B73;
+    border-radius: 0.5em;
+    padding:10px;
+   text-align: center;
+   align-self: center;
+   width:50%;
+
+}
+.menu-item{
+    display: flex-box;
+    flex-direction: column;
+    width: 40%;
+}
+.menu-item-1{
+    padding-top: 20px;
+    background-color: #b49680;
+    align-self: center;
+    
+}
+.menu-item-2{
+    padding-top: 20px;
+    background-color: #b49680;
+}
